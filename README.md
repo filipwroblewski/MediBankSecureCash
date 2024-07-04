@@ -161,3 +161,22 @@ _For testing purposes, it may be necessary to invent a few other employees._
 
 4. Interaction with the system through GUI: The implementation should not only allow running tests through the terminal but also enable the user to interact with the system using a basic graphical user interface available through a browser.
    - A simple GUI can be achieved using standard HTML elements combined with some basic CSS styles and console usage. If you want to improve the appearance of your GUI, you can also include and use other external libraries/frameworks that you find helpful (Bootstrap, React, etc.)
+
+## Project Evaluation
+
+### Table Of Evaluation
+
+| Requirements                                                                                       | File Names                       | Line Numbers      |
+| -------------------------------------------------------------------------------------------------- | -------------------------------- | ----------------- |
+| Implementation of Cards (Managers, Safe Employees, Operators, Traders, Guards)                     | Card.ts                          | 77-127            |
+| Implementation (Secured, Operational, Transactions, External)                                      | Zone.ts                          | 3-135             |
+| Implementation of Doors (0 - 5)                                                                    | Zone.ts                          | 137-183           |
+| Code adding a card to the zone.                                                                    | Zone.ts                          | 160-173           |
+| Code checking if there are no more than 2 Safe employees in the Secure Zone.                       | Zone.ts                          | 23-25             |
+| Code checking if a Manager can enter the Secure Zone even if there are already 2 employees inside. | Zone.ts                          | 23-25             |
+| Code checking if a Trader can enter the Operational Zone.                                          | Zone.ts                          | 111-121           |
+| Code checking if an Operational employee can enter the Secure Zone.                                | Zone.ts                          | 129-134           |
+| Code checking if a Guard can enter the Zone without the presence of another employee.              | Zone.ts                          | 60-72             |
+| Tester class that conducts at least 5 different tests (see Project Details, question 3)            | Tester.ts                        | 5-150             |
+| Code building and controlling the system interface in the browser.                                 | index.html, main.ts, MediBank.ts | 52, 58-64, 85-194 |
+| Code showing the implementation and use of at least one design pattern.                            | Main.ts, MediBank.ts             | 58, (12, 17-32)   |
